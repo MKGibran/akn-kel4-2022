@@ -1,0 +1,56 @@
+CRITICAL - 2022-05-15 12:43:49 --> Invalid file: template/V_Soal1.php
+#0 D:\Pegawean\AKN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/V_Soal...')
+#1 D:\Pegawean\AKN\system\Common.php(1089): CodeIgniter\View\View->render('template/V_Soal...', Array, true)
+#2 D:\Pegawean\AKN\app\Controllers\Home.php(9): view('template/V_Soal...')
+#3 D:\Pegawean\AKN\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\Pegawean\AKN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Pegawean\AKN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pegawean\AKN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pegawean\AKN\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegawean\\AKN...')
+#8 {main}
+CRITICAL - 2022-05-15 12:57:10 --> Invalid file: content/C_Soal1.php
+#0 D:\Pegawean\AKN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('content/C_Soal1...')
+#1 D:\Pegawean\AKN\system\Common.php(1089): CodeIgniter\View\View->render('content/C_Soal1', Array, true)
+#2 D:\Pegawean\AKN\app\Controllers\C_Soal1.php(11): view('content/C_Soal1')
+#3 D:\Pegawean\AKN\system\CodeIgniter.php(832): App\Controllers\C_Soal1->index()
+#4 D:\Pegawean\AKN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Soal1))
+#5 D:\Pegawean\AKN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Pegawean\AKN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Pegawean\AKN\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegawean\\AKN...')
+#8 {main}
+CRITICAL - 2022-05-15 18:12:51 --> Undefined variable $count
+#0 D:\Pegawean\AKN\app\Views\content\V_Jawaban2.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Pegawean\\AKN...', 16)
+#1 D:\Pegawean\AKN\system\View\View.php(210): include('D:\\Pegawean\\AKN...')
+#2 D:\Pegawean\AKN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Pegawean\AKN\system\Common.php(1089): CodeIgniter\View\View->render('content/V_Jawab...', Array, true)
+#4 D:\Pegawean\AKN\app\Controllers\C_Jawaban2.php(15): view('content/V_Jawab...', Array)
+#5 D:\Pegawean\AKN\system\CodeIgniter.php(832): App\Controllers\C_Jawaban2->index()
+#6 D:\Pegawean\AKN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Jawaban2))
+#7 D:\Pegawean\AKN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pegawean\AKN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pegawean\AKN\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegawean\\AKN...')
+#10 {main}
+CRITICAL - 2022-05-15 18:12:58 --> Undefined variable $count
+#0 D:\Pegawean\AKN\app\Views\content\V_Jawaban2.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Pegawean\\AKN...', 16)
+#1 D:\Pegawean\AKN\system\View\View.php(210): include('D:\\Pegawean\\AKN...')
+#2 D:\Pegawean\AKN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Pegawean\AKN\system\Common.php(1089): CodeIgniter\View\View->render('content/V_Jawab...', Array, true)
+#4 D:\Pegawean\AKN\app\Controllers\C_Jawaban2.php(15): view('content/V_Jawab...', Array)
+#5 D:\Pegawean\AKN\system\CodeIgniter.php(832): App\Controllers\C_Jawaban2->index()
+#6 D:\Pegawean\AKN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Jawaban2))
+#7 D:\Pegawean\AKN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pegawean\AKN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pegawean\AKN\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegawean\\AKN...')
+#10 {main}
+CRITICAL - 2022-05-15 18:13:00 --> Undefined variable $count
+#0 D:\Pegawean\AKN\app\Views\content\V_Jawaban2.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Pegawean\\AKN...', 16)
+#1 D:\Pegawean\AKN\system\View\View.php(210): include('D:\\Pegawean\\AKN...')
+#2 D:\Pegawean\AKN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Pegawean\AKN\system\Common.php(1089): CodeIgniter\View\View->render('content/V_Jawab...', Array, true)
+#4 D:\Pegawean\AKN\app\Controllers\C_Jawaban2.php(15): view('content/V_Jawab...', Array)
+#5 D:\Pegawean\AKN\system\CodeIgniter.php(832): App\Controllers\C_Jawaban2->index()
+#6 D:\Pegawean\AKN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Jawaban2))
+#7 D:\Pegawean\AKN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Pegawean\AKN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Pegawean\AKN\system\Commands\Server\rewrite.php(43): require_once('D:\\Pegawean\\AKN...')
+#10 {main}
